@@ -1,10 +1,13 @@
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selectors.*;
-import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Selectors.byText;
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
 
-class CodeForFindingJunit5 {
+
+public class CodeForFindingJUnit5 {
+
 
     @Test
     void codeSampleCheckTest() {
@@ -17,4 +20,3 @@ class CodeForFindingJunit5 {
         $(".markdown-body").shouldHave(text("3. Using JUnit5 extend test class:"));
     }
 }
-
