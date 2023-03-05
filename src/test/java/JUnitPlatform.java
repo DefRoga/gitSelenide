@@ -15,8 +15,6 @@ class JUnitPlatform {
         $(".wiki-rightbar").$(byText("JUnitPlatform")).click();
         $(".markdown-body").shouldHave(text("3. Using JUnit5 extend test class:"));
 
-        sleep(3000);
-
     }
 }
 
