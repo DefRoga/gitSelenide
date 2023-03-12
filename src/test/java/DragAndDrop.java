@@ -9,7 +9,6 @@ public class DragAndDrop {
         open("https://the-internet.herokuapp.com/drag_and_drop");
         $("#column-a").dragAndDropTo($("#column-b"));
         $("#columns div").shouldHave(text("B"));
-        sleep(4000);
 
     }
 }
