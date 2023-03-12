@@ -16,7 +16,6 @@ public class CodeForFindingJUnit5 {
         $(".js-wiki-more-pages-link").click();
         $(".wiki-rightbar").shouldHave(text("SoftAssertions"));
         $(".wiki-rightbar").$(byText("SoftAssertions")).click();
-
         $(".markdown-body").shouldHave(text("3. Using JUnit5 extend test class:"));
     }
 }
